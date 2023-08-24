@@ -15,12 +15,12 @@
 <br><br>
 
 # <img height="40" src="https://user-images.githubusercontent.com/84249945/219701953-d9aadf6c-065a-4176-8c21-3b13c497f752.png"/> Instalações
-- Instalar o pg (postgres)
+- Na pasta server, instalar o pg (postgres)
 ```bash
 npm install pg
 ```
 
-- Instalar o express
+- Na pasta server, instalar o express
 ```bash
 npm install express
 ```
@@ -30,14 +30,14 @@ npm install express
 # <img height="40" src="https://user-images.githubusercontent.com/84249945/219471082-bba3510e-ee6d-4a6e-bf78-d7afc692043e.png"/> Observações
 <p>No decorrer do projeto, como estamos utilizando dois localhost diferentes (React na porta 3000 e o servidor na porta 4000) pode ser que haja erro de CORS.</p>
 <p>O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.</p>
-<p>No entanto, para resolver este problema basta digitar o seguinte comando:</p>
+<p>No entanto, para resolver este problema basta abrir o terminal da pasta server e digitar o seguinte comando:</p>
 
 ```bash
 npm install cors
 ```
 
 <p>Um outro detalhe, para facilitar a usabilidade pelo programador, seria a instalação do <strong>nodemon</strong>.</p>
-<p>O nodemon é um utilitário que monitora as mudanças nos arquivos do seu projeto e reinicia <strong>automaticamente</strong> o servidor Node. js quando necessário. No entanto, neste projeto é recomendável instalar o nodemon como dev dependency, então basta digitar o seguinte comando:</p>
+<p>O nodemon é um utilitário que monitora as mudanças nos arquivos do seu projeto e reinicia <strong>automaticamente</strong> o servidor Node. js quando necessário. No entanto, neste projeto é recomendável instalar o nodemon como dev dependency, então basta abrir o terminal da pasta server e digitar o seguinte comando:</p>
 
 ```bash
 npm install --save-dev nodemon
